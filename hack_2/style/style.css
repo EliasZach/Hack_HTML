@@ -1,0 +1,46 @@
+:root {
+    --blue-color: #93B5C9;
+    --wine-color: #AB2849;
+}
+
+body {
+    margin: 0;
+}
+
+.firstbox {
+    height: 140px;
+}
+
+.secondbox{
+    height: 250px;
+}
+
+.winebox {
+    background-color: var(--wine-color);
+
+}
+
+.bluebox {
+    background-color: var(--blue-color);
+}
+
+.container{
+    width: 85%;
+    /* Los divs ya de manera predeterminada se acomodan a la izquierda del contenedor,
+    de igual forma, se define explícitamente con float de la siguiente manera: */
+    float: left;
+    margin-bottom: 20px;
+}
+
+.left {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.centered {
+    width: 95%;
+    height: 100px;
+    margin: 20px auto 0;
+    /* Se usa clear para respetar el flujo posterior al elemento con float */
+    clear: both;
+}

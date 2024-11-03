@@ -1,0 +1,38 @@
+:root {
+    --blue-color: #93B5C9;
+    --wine-color: #AB2849;
+}
+
+body {
+    margin: 0;
+}
+
+.firstbox {
+    height: 140px;
+}
+
+.secondbox{
+    height: 250px;
+}
+
+.winebox {
+    background-color: var(--wine-color);
+}
+
+.bluebox {
+    background-color: var(--blue-color);
+}
+
+.right {
+    width: 85%;
+    height: 100px;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.centered {
+    width: 95%;
+    height: 100px;
+    margin: 20px auto 0;
+}
+

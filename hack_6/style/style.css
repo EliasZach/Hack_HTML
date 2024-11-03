@@ -1,0 +1,136 @@
+:root {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    --green-color: #00BF63;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url(/hack_6/img/2.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 100px 200px;
+    height: 100%;
+}
+
+.titles {
+    width: 600px;
+    font-size: 3rem;
+}
+
+.titles > p {
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 7rem;
+    margin: 20px 0;
+}
+
+
+.notch {
+    display: inline-block;
+    background-color: #000;
+    border-radius: 50px;
+    padding: 10px 30px;
+    color:aliceblue;
+    font-size: 2rem;
+}
+
+.label{ 
+    text-align: center;
+    align-content: center;
+    font-size: 6rem;
+    line-height: 40px;
+    font-weight: 700;
+    color: aliceblue;
+    position: absolute; 
+    top: 150px; 
+    right: 400px; 
+    width: 200px; 
+    height: 200px; 
+    background-color: var(--green-color); 
+    border-radius: 50%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    z-index: 1; 
+}
+
+.off {
+    font-size: 4rem;
+}
+
+.img-container {
+    width: 300px;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.applyflex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.products {
+    max-width: 1400px;
+    margin: 50px auto;
+}
+
+figure {
+    width: 300px;
+    height: auto;
+    background-color: #FFF;
+    transition: 0.2s ease-in-out;
+}
+
+.description {
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+.discount {
+    color: grey;
+    text-decoration: line-through red 3px;
+}
+
+#price {
+    width: 55%;
+    line-height: 0;
+}
+
+footer {
+    height: 200px;
+    background-color: #000;
+    align-content: center;
+    margin: 0 20px;
+}
+
+.shop-btn{ 
+    text-align: center;
+    align-content: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: aliceblue;
+    width: 200px;
+    background-color: var(--green-color); 
+    border-radius: 50px;
+    padding: 10px; 
+    margin-left: 200px;
+}
+
+figure:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+    padding: 20px;
+    transform: scale(1.2);
+}
