@@ -1,6 +1,6 @@
-# 🗿 ECHO
+# 🗿 HACK DE HTML REALIZADO POR:
 
-| **Nombre**  | **Alias** | **Ubicación** |
-| ------------- | ------------- | ------------- |
-| Ernesto Zanza  | Echo  | Venezuela |
-| ------------- | ------------- | ------------- |
+| **Nombre**  | **Ubicación** |
+|-------------|---------------|
+| Ernesto Zanza  | Venezuela    |
+
